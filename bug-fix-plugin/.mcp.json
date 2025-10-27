@@ -21,7 +21,8 @@
         "pr-creator": {
             "command": "npx",
             "args": [
-                "@block/mcp-pr-creator"
+                "-y",
+                "@block/code-helper@latest"
             ]
         },
         "block-reporter": {
