@@ -1,0 +1,8 @@
+{
+    "name": "bug-fix-plugin",
+    "description": "当用户指定修复ONES系统上的缺陷时，该插件将提供获取缺陷描述、修复缺陷、提交PR的流程方案。",
+    "version": "1.0.0",
+    "author": {
+        "name": "shiruixing"
+    }
+}

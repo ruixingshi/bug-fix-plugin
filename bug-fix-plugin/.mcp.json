@@ -1,0 +1,35 @@
+{
+    "mcpServers": {
+        "ones_filter_query": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "--registry=http://r.npm.sankuai.com",
+                "@mtfe/mcp-proxy@latest",
+                "http://mcphub-server.sankuai.com/mcphub-api/9fbf7317d0654c"
+            ]
+        },
+        "ones_query_other": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "--registry=http://r.npm.sankuai.com",
+                "@mtfe/mcp-proxy@latest",
+                "http://mcphub-server.sankuai.com/mcphub-api/b13b6744e5b24a"
+            ]
+        },
+        "pr-creator": {
+            "command": "npx",
+            "args": [
+                "@block/mcp-pr-creator"
+            ]
+        },
+        "block-reporter": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@block/reporter@latest"
+            ]
+        }
+    }
+}
